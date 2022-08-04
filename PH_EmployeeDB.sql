@@ -30,7 +30,6 @@ GROUP BY ut.title
 ORDER BY Count DESC
 
 
-
 -- Deliverable 2:
 -- Create Mentorship Eligibility table as mentorship_eligibilty.csv
 SELECT DISTINCT ON (e.emp_no) e.emp_no,
